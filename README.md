@@ -1,4 +1,4 @@
-
+    
 # Metacrafters Token Contract
 
 This repository contains the smart contract for the Metacrafters token, a basic implementation of an ERC-20 compatible token on the Ethereum blockchain.
