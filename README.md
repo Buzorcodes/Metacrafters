@@ -1,22 +1,7 @@
 
 # Metacrafters Token Contract
 
-**Version:** 0.8.18  
-**License:** MIT  
-**Last Updated:** [Insert Date]
-
 This repository contains the smart contract for the Metacrafters token, a basic implementation of an ERC-20 compatible token on the Ethereum blockchain.
-
-## Table of Contents
-
--   [Overview](https://chat.openai.com/?model=text-davinci-002-render-sha#overview)
--   [Contract Details](https://chat.openai.com/?model=text-davinci-002-render-sha#contract-details)
-    -   [Token Information](https://chat.openai.com/?model=text-davinci-002-render-sha#token-information)
-    -   [Public Functions](https://chat.openai.com/?model=text-davinci-002-render-sha#public-functions)
--   [Usage](https://chat.openai.com/?model=text-davinci-002-render-sha#usage)
-    -   [Minting Tokens](https://chat.openai.com/?model=text-davinci-002-render-sha#minting-tokens)
-    -   [Burning Tokens](https://chat.openai.com/?model=text-davinci-002-render-sha#burning-tokens)
--   [License](https://chat.openai.com/?model=text-davinci-002-render-sha#license)
 
 ## Overview
 
@@ -28,7 +13,7 @@ The Metacrafters token contract provides a simple example of an ERC-20 token on 
 
 -   **Token Name:** Metacrafters
 -   **Token Symbol:** MTC
--   **Total Supply:** [Total Supply Value]
+-   **Total Supply:** [0]
 
 ### Public Functions
 
