@@ -48,8 +48,9 @@ To create and distribute new tokens to a specific address:
 To remove tokens from circulation:
 
 1.  Call the `burn` function, passing the holder's wallet address and the amount of tokens to be burned.
-2.  The total supply and the balance of the holder's address will be adjusted accordingly.
+2.  A require statement must be passed before token can be burnt, the `balanceOf[walletAddress]` of the user is checked first to confirm that the `_value` is greater than amount in the their balances, if its not up to or equal the amount the transaction will fail
+3.  The total supply and the balance of the holder's address will be adjusted accordingly.
 
 ## License
 
-This project is licensed under the terms of the MIT license. See [LICENSE](https://chat.openai.com/LICENSE) for more details.
+This project is licensed under the terms of the MIT license. 
